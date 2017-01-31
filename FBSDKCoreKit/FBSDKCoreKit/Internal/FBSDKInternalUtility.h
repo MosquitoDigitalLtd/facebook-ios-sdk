@@ -306,7 +306,7 @@ setJSONStringForObject:(id)object
 /**
   Attempts to find the first UIViewController in the view's responder chain. Returns nil if not found.
  */
-+ (UIViewController *)viewControllerForView:(UIView *)view;
++ (UIViewController *)viewControllerforView:(UIView *)view;
 
 /**
   returns true if the url scheme is registered in the CFBundleURLTypes
